@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">My Application</string>
-    <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="Recording">Android Audio Recording Application</string>
-    <string name="but_begin">start</string>
-    <string name="but_stop">stop</string>
-    <string name="but_play">play</string>
-</resources>
