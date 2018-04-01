@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context="com.example.administrator.gameanimals.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonStart"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="100dp"
+            android:text="START"
+            android:textSize="26sp"
+            android:onClick="btnClick"
+            android:textColor="#FFFFFF" />
+        <Button
+            android:id="@+id/buttonExit"
+            android:layout_below="@+id/buttonStart"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="100dp"
+            android:text="EXIT"
+            android:textSize="26sp"
+            android:onClick="btnClick2"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout >
+
+</LinearLayout>

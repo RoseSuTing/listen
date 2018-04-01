@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">显示</string>
+    <string name="gosling">奥古斯塔·阿达·金，勒芙蕾丝伯爵夫人（Augusta Ada King, Countess of Lovelace，1815年12月10日－1852年11月27日），原名奥古斯塔·阿达·拜伦（Augusta Ada Byron），通称阿达·洛芙莱斯（Ada Lovelace），是著名英国诗人拜伦之女，数学家。计算机程序创始人，建立了循环和子程序概念。
+为计算程序拟定“算法”，写作的第一份“程序设计流程图”，被珍视为“第一位给计算机写程序的人”。为了纪念阿达·奥古斯塔对现代电脑与软件工程所产生的重大影响，美国国防部将耗费巨资、历时近20年研制成功的高级程序语言命名为Ada语言，它被公认为是第四代计算机语言的主要代表</string>
+    <string name="augusta">另一个名人</string>
+</resources>

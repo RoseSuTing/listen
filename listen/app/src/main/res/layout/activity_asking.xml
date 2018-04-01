@@ -18,11 +18,12 @@
         android:layout_marginBottom="146dp"
         android:background="@drawable/circle" />
     <TextView
+        android:id ="@+id/time_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="180dp"
-        android:layout_marginLeft="130dp"
-        android:text="00:00:02"
+        android:layout_marginLeft="80dp"
+        android:text="Recording 00:00"
         android:textSize="30dp"
         android:textColor="@android:color/black"/>
     <ImageView
@@ -38,21 +39,23 @@
         android:background="@drawable/micro"
         android:layout_marginTop="430dp"
         android:layout_marginLeft="140dp"
-        android:onClick="start"/>
-    <ImageView
+        />
+    <Button
         android:id="@+id/img_stop_said"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/stop_said"
-        android:layout_marginTop="430dp"
-        android:layout_marginLeft="140dp"
-        android:onClick="stop"/>
+        android:layout_marginTop="450dp"
+        android:text="puase"
+        android:layout_marginLeft="30dp"
+        />
+
     <Button
         android:id="@+id/but_save"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="450dp"
         android:layout_marginLeft="260dp"
-        android:onClick="save"/>
+        android:text="save"
+        />
 
 </RelativeLayout>
