@@ -26,7 +26,14 @@ public class History extends AppCompatActivity {
     public Button play, delete;
     private TextView myTextView;
     //The arrayList to populate the listView
-    private ArrayList<Student> studentsList = new ArrayList<Student>();
+    private boolean sdcardExit;
+    private File myRecAudioDir;
+    private File myPlayFile;
+    public ListView listView;
+    /**按钮背景图片的标志位**/
+    private boolean sigle = false;
+    private ArrayAdapter<String> adapter;
+    private ArrayList<String> recordFiles = new ArrayList<String>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,29 +47,95 @@ public class History extends AppCompatActivity {
 
         play.setEnabled(true);
         delete.setEnabled(true);
+        // 判断sd Card是否插入
+        sdcardExit = Environment.getExternalStorageState().equals(
+                android.os.Environment.MEDIA_MOUNTED);
+        // 取得sd card路径作为录音文件的位置
+        if (sdcardExit) {
+            String pathStr = Environment.getExternalStorageDirectory().getPath() + "/Listen";
+            myRecAudioDir = new File(pathStr);
+            Log.d("TAG", pathStr);
+        }
+            //Todo: The following is just for a demo purpose
 
-        final String pathStr = Environment.getExternalStorageDirectory().getPath() + "/Listen";
-        Log.d("TAG", pathStr);
+            //Generate the dummy date to populate the listView
 
-        //Todo: The following is just for a demo purpose
-
-        //Generate the dummy date to populate the listView
-        generateDummyContent();
 
         /*
             Create a custom array adapter which  maps the strings to the views in the layout
             The default ArrayAdapter is too limited as we can only map a string to a view in the layout.
             In order to populate multiple views with different content, we need to create a custom Adapter.
          */
-        StudentArrayAdapter studentArrayAdapter =
-                new StudentArrayAdapter(
-                        getBaseContext(), // Current context
-                        R.layout.item_layout, // the layout for each item in the list
-                        studentsList); // the arrayList to feed the arrayAdapter
+        myPlayFile=null;
+            // 取得sd card 目录里的.arm文件
+            getRecordFiles();
 
-        //The last step is to connect the listView and the Java class and to populate the list View using the ArrayAdapter
-        ListView listView = findViewById(R.id.listView_history);
-        listView.setAdapter(studentArrayAdapter);
+            adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, recordFiles);
+
+            //The last step is to connect the listView and the Java class and to populate the list View using the ArrayAdapter
+            listView = findViewById(R.id.listView_history);
+            listView.setAdapter(adapter);
+
+        // 删除
+        delete.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                sigle = true;
+                // TODO Auto-generated method stub
+
+                if (myPlayFile != null) {
+                    // 先将Adapter删除文件名
+                    adapter.remove(myPlayFile.getName());
+                    // 删除文件
+                    if (myPlayFile.exists())
+                        myPlayFile.delete();
+                    myTextView.setText("完成删除！");
+                }
+            }
+        });
+
+        // 播放
+        play.setOnClickListener(new ImageButton.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                sigle = true;
+                // TODO Auto-generated method stub
+                if (myPlayFile != null && myPlayFile.exists()) {
+                    // 打开播放程序
+                    openFile(myPlayFile);
+                } else {
+                    Toast.makeText(History.this, "你选的是一个空文件", Toast.LENGTH_LONG)
+                            .show();
+                    Log.d("没有选择文件","没有选择文件");
+                }
+            }
+
+        });
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> arg, View arg1,
+                                    int arg2, long arg3) {
+                // TODO Auto-generated method stub
+                // 当有单点击文件名时将删除按钮及播放按钮Enable
+                play.setEnabled(true);
+                delete.setEnabled(true);
+                myPlayFile = new File(myRecAudioDir.getAbsolutePath()
+                        + File.separator
+                        + ((TextView) arg1).getText().toString());
+
+                DecimalFormat df = new DecimalFormat("#.000");
+
+                myTextView.setText("你选的是"
+                        + ((TextView) arg1).getText().toString());
+                Toast.makeText(History.this,"你选的是" + (((TextView) arg1).getText()),
+                        Toast.LENGTH_LONG).show();
+
+            }
+
+        });
 
 
     }
@@ -93,7 +166,26 @@ public class History extends AppCompatActivity {
         return type;
     }
 
-
+    //获取文件
+    private void getRecordFiles() {
+        // TODO Auto-generated method stub
+        recordFiles = new ArrayList<String>();
+        if (sdcardExit) {
+            File files[] = myRecAudioDir.listFiles();
+            if (files != null) {
+                for (int i = 0; i < files.length; i++) {
+                    if (files[i].getName().indexOf(".") >= 0) { // 只取.amr 文件
+                        String fileS = files[i].getName().substring(
+                                files[i].getName().indexOf("."));
+                        if (fileS.toLowerCase().equals(".mp3")
+                                || fileS.toLowerCase().equals(".amr")
+                                || fileS.toLowerCase().equals(".mp4"))
+                            recordFiles.add(files[i].getName());
+                    }
+                }
+            }
+        }
+    }
     /* Buttons */
 
     public void btnPlay(View view) {
@@ -102,18 +194,5 @@ public class History extends AppCompatActivity {
 
     public void btnDelete(View view) {
         Toast.makeText(this, " Delete", Toast.LENGTH_SHORT).show();
-    }
-
-    /*Dummy content */
-
-    private void generateDummyContent() {
-        final String[] nameDummy = {"20012001梁国辉Jack", "20012003吴尚泽Roland", "20012004程淼Elic", "20012005吴歌扬Remus", "20012006缪鹏飞mahon", "20012007刘峥Jerry", "20012009赵文杰Sam", "20012010桑明月bruce sand", "20012013秦帆Sail Chin", "20012014方岩simple", "20012016刘雨果Hugo", "20012017杨孝辉Paul", "20012018李宁Lee", "20012019杨译绗Yori", "20012020万芳维Arno", "20012021黄春霖Pinky", "20012022王丹zoy", "20012023王瀚哲orange", "20012025向微Jhon", "20012026邓炯尧dengjiongyao", "20012027裴凯强Joshua", "20012028刘毅frank", "20012029文愉舒Joshua", "20012030夏月Summon", "20012031WuTianyuRyan", "20012032薛景智Shawn", "20012033何宇River", "20012034彭小双Daniel", "20012035陶友玮Ronon", "20012038秦郡鸿Join", "20012039程金Alan", "20012041苏婷Rose", "20012042李昕Cyn", "20012043陈静Lottie", "20012044张健华Lancer", "20012046向鹏Alan", "20012047徐佩荃Jake", "20012048马浚豪Gattuso", "20012049周渝jerry", "20012050段张奇Monster", "20012052郭华钰Ben", "20012053邓慧迪Amber", "20012008John", "20012036ELI"};
-        for (String element : nameDummy) {
-            String studentId = element.substring(0, 7);
-            String studentName = element.substring(8);
-
-            studentsList.add(new Student(studentName, Integer.valueOf(studentId)));
-
-        }
     }
 }

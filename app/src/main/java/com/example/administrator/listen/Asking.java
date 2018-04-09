@@ -47,8 +47,8 @@ public class Asking extends AppCompatActivity {
     /**
      * 存放音频文件列表
      **/
-    private ArrayList<String> recordFiles = new ArrayList<String>();
-    private ArrayAdapter<String> adapter;
+
+
 
     /**
      * 文件存在
@@ -64,7 +64,9 @@ public class Asking extends AppCompatActivity {
     /**
      * 记录需要合成的几段amr语音文件
      **/
+    private ArrayAdapter<String> adapter;
     private ArrayList<String> list = new ArrayList<String>();
+    private ArrayList<String> recordFiles = new ArrayList<String>();
     //Time
     int second = 0;
     int minute = 0;
@@ -110,10 +112,10 @@ public class Asking extends AppCompatActivity {
                 Log.v("录音", "创建录音文件！" + myRecAudioDir.exists());
             }
         }
-        // 取得sd card 目录里的.arm文件
-        getRecordFiles();
 
+        getRecordFiles();
         adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, recordFiles);
+
 
         //点击录音
         img_said.setOnClickListener(new Button.OnClickListener() {
@@ -178,15 +180,14 @@ public class Asking extends AppCompatActivity {
                 }
                 //停止录音了
                 isStopRecord = true;
+                if (isStopRecord = true) {
+                    Intent intent = new Intent(Asking.this, History.class);
+                    startActivity(intent);
+                }
             }
         });
 
-        if (isStopRecord = true) {
-            Intent intent = new Intent(Asking.this, History.class);
-            intent.putStringArrayListExtra("adapter", recordFiles);
-            intent.putStringArrayListExtra("list", list);
-            startActivity(intent);
-        }
+
         //暂停录音
         img_stop_said.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -225,26 +226,7 @@ public class Asking extends AppCompatActivity {
         timer.cancel();
     }
 
-    //获取文件
-    private void getRecordFiles() {
-        // TODO Auto-generated method stub
-        recordFiles = new ArrayList<String>();
-        if (sdcardExit) {
-            File files[] = myRecAudioDir.listFiles();
-            if (files != null) {
-                for (int i = 0; i < files.length; i++) {
-                    if (files[i].getName().indexOf(".") >= 0) { // 只取.amr 文件
-                        String fileS = files[i].getName().substring(
-                                files[i].getName().indexOf("."));
-                        if (fileS.toLowerCase().equals(".mp3")
-                                || fileS.toLowerCase().equals(".amr")
-                                || fileS.toLowerCase().equals(".mp4"))
-                            recordFiles.add(files[i].getName());
-                    }
-                }
-            }
-        }
-    }
+
 
 
     private void start() {
@@ -323,6 +305,27 @@ public class Asking extends AppCompatActivity {
         }
     };
 
+    //获取文件
+    private void getRecordFiles() {
+        // TODO Auto-generated method stub
+        recordFiles = new ArrayList<String>();
+        if (sdcardExit) {
+            File files[] = myRecAudioDir.listFiles();
+            if (files != null) {
+                for (int i = 0; i < files.length; i++) {
+                    if (files[i].getName().indexOf(".") >= 0) { // 只取.amr 文件
+                        String fileS = files[i].getName().substring(
+                                files[i].getName().indexOf("."));
+                        if (fileS.toLowerCase().equals(".mp3")
+                                || fileS.toLowerCase().equals(".amr")
+                                || fileS.toLowerCase().equals(".mp4"))
+                            recordFiles.add(files[i].getName());
+                    }
+                }
+            }
+        }
+    }
+    /* Buttons */
 
     public void getInputCollection(List list, boolean isAddLastRecord) {
         String mMinute1 = getTime();

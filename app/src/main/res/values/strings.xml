@@ -12,4 +12,10 @@
     <string name="img_said">start</string>
     <string name="img_stop_said">stop</string>
 
+    <string name="Listen">Listen</string>
+    <string name="Speak">Speak</string>
+    <string name="Talk">Talk</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
