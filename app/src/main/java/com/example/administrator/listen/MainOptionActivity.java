@@ -1,10 +1,20 @@
 package com.example.administrator.listen;
 
+        import android.app.FragmentManager;
+        import android.app.FragmentTransaction;
         import android.content.ClipData;
         import android.content.Intent;
         import android.content.SharedPreferences;
         import android.os.Bundle;
+<<<<<<< HEAD
         import android.support.design.widget.BottomNavigationView;
+=======
+        import android.support.annotation.NonNull;
+        import android.support.design.widget.BottomNavigationView;
+        import android.support.design.widget.FloatingActionButton;
+        import android.support.design.widget.Snackbar;
+        import android.util.Log;
+>>>>>>> 73c9a7788cb0f337159e99c790a5464c42963a70
         import android.view.View;
         import android.support.design.widget.NavigationView;
         import android.support.v4.view.GravityCompat;
@@ -26,14 +36,19 @@ public class MainOptionActivity extends AppCompatActivity
     public ClipData.Item nav_history;
     public ClipData.Item nav_style;
     public ClipData.Item nav_collection;
+<<<<<<< HEAD
     public ImageView imgview;
     private SessionManager session;
+=======
+public ImageView imgview;
+>>>>>>> 73c9a7788cb0f337159e99c790a5464c42963a70
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
+<<<<<<< HEAD
         Bundle bundle = getIntent().getExtras();
         if (bundle != null) {
             // Retrieve the parcelable
@@ -51,6 +66,8 @@ public class MainOptionActivity extends AppCompatActivity
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+=======
+>>>>>>> 73c9a7788cb0f337159e99c790a5464c42963a70
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -59,6 +76,7 @@ public class MainOptionActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
+<<<<<<< HEAD
         imgview = findViewById(R.id.img);
         second_back =findViewById(R.id.second_back);
         imgview.setImageResource(R.drawable.style_s);
@@ -93,6 +111,35 @@ public class MainOptionActivity extends AppCompatActivity
         else if(position == 4){
             second_back.setImageResource(R.drawable.style4_b);
             imgview.setImageResource(R.drawable.style4_s);}
+=======
+        init();
+    }
+
+    public void init(){
+
+        imgview = findViewById(R.id.img);
+        img_log = findViewById(R.id.image_log);
+        second_back =findViewById(R.id.second_back);
+        Intent intent =  getIntent();
+        int position = intent.getIntExtra("postion",-1);
+        if(position == 0)
+        {
+            second_back.setImageResource(R.drawable.cat);
+            img_log.setImageResource(R.drawable.dog);}
+        else  if(position == 1)
+            second_back.setImageResource(R.drawable.dog);
+        else if(position == 2)
+            second_back.setImageResource(R.drawable.bear);
+        else if(position == 3)
+            second_back.setImageResource(R.drawable.mouse);
+        else if(position == 4)
+            second_back.setImageResource(R.drawable.panda);
+
+        SharedPreferences sharedPreferences= getSharedPreferences("data",
+                MainOptionActivity.MODE_PRIVATE);
+        int log = sharedPreferences.getInt("log",MODE_PRIVATE);
+        Toast.makeText(MainOptionActivity.this,"点击了:"+ log, Toast.LENGTH_LONG).show();
+>>>>>>> 73c9a7788cb0f337159e99c790a5464c42963a70
     }
 
 public void butClick(View view)
@@ -114,6 +161,7 @@ public void butClick(View view)
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.second, menu);
+<<<<<<< HEAD
         img_log = findViewById(R.id.image_log);
         SharedPreferences sharedPreferences= getSharedPreferences("data",
                 MainOptionActivity.MODE_PRIVATE);
@@ -130,6 +178,8 @@ public void butClick(View view)
             img_log.setImageResource(R.drawable.log4);
 
         Toast.makeText(MainOptionActivity.this,"点击了:"+ log, Toast.LENGTH_LONG).show();
+=======
+>>>>>>> 73c9a7788cb0f337159e99c790a5464c42963a70
 
         return true;
     }

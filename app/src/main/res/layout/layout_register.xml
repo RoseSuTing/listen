@@ -9,7 +9,11 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+<<<<<<< HEAD
         android:background="@drawable/cat2"/>
+=======
+        android:background="@drawable/cat_register"/>
+>>>>>>> 73c9a7788cb0f337159e99c790a5464c42963a70
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -20,29 +24,48 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="70dp"
             android:layout_marginTop="80dp"
+<<<<<<< HEAD
             android:hint="@string/username"
             android:inputType="textCapWords"
             android:layout_marginStart="70dp" />
 
         <EditText
             android:id="@+id/et_email"
+=======
+            android:hint="Username" />
+
+        <EditText
+            android:id="@+id/et_password"
+>>>>>>> 73c9a7788cb0f337159e99c790a5464c42963a70
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="70dp"
             android:layout_marginTop="30dp"
+<<<<<<< HEAD
             android:hint="@string/email"
             android:inputType="textEmailAddress"
             android:layout_marginStart="70dp" />
 
         <EditText
             android:id="@+id/text_password"
+=======
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/text_password_again"
+>>>>>>> 73c9a7788cb0f337159e99c790a5464c42963a70
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="70dp"
             android:layout_marginTop="30dp"
+<<<<<<< HEAD
             android:hint="@string/password"
             android:inputType="textPassword"
             android:layout_marginStart="70dp" />
+=======
+            android:hint="Password confirmation" />
+>>>>>>> 73c9a7788cb0f337159e99c790a5464c42963a70
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -54,10 +77,16 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="70dp"
                 android:layout_marginTop="30dp"
+<<<<<<< HEAD
                 android:text="@string/number"
                 android:textColor="@android:color/holo_blue_bright"
                 android:textSize="25dp"
                 android:layout_marginStart="70dp" />
+=======
+                android:text=" number"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textSize="25dp" />
+>>>>>>> 73c9a7788cb0f337159e99c790a5464c42963a70
 
             <TextView
                 android:id="@+id/text_checknum"
@@ -65,9 +94,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="30dp"
+<<<<<<< HEAD
                 android:text="@string/check_number"
                 android:textSize="15dp"
                 android:layout_marginStart="10dp" />
+=======
+                android:text="check number"
+                android:textSize="15dp" />
+>>>>>>> 73c9a7788cb0f337159e99c790a5464c42963a70
         </LinearLayout>
 
         <EditText
@@ -76,7 +110,11 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="70dp"
             android:layout_marginTop="30dp"
+<<<<<<< HEAD
             android:text="@string/check_number" />
+=======
+            android:text="check number" />
+>>>>>>> 73c9a7788cb0f337159e99c790a5464c42963a70
 
         <Button
             android:id="@+id/btnRegister"
@@ -84,6 +122,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="70dp"
             android:layout_marginTop="40dp"
+<<<<<<< HEAD
             android:text="@string/register"
             android:background="@android:color/white"
             android:textColor="@android:color/black"/>
@@ -98,4 +137,12 @@
             android:textSize="15dp" />
 
     </LinearLayout>
+=======
+            android:text="Register"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black"/>
+    </LinearLayout>
+
+
+>>>>>>> 73c9a7788cb0f337159e99c790a5464c42963a70
 </FrameLayout>

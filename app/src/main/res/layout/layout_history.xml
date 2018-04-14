@@ -6,9 +6,15 @@
     tools:context=".History">
 
     <ImageView
+<<<<<<< HEAD
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/history">
+=======
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cat3">
+>>>>>>> 73c9a7788cb0f337159e99c790a5464c42963a70
 
     </ImageView>
 
@@ -52,9 +58,15 @@
 
             android:layout_height="0dp"
             android:layout_weight="1">
+<<<<<<< HEAD
 
         </ListView>
 
+=======
+
+        </ListView>
+
+>>>>>>> 73c9a7788cb0f337159e99c790a5464c42963a70
     </LinearLayout>
 
 

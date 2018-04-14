@@ -17,6 +17,10 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
+<<<<<<< HEAD
+=======
+        android:background="@drawable/cat2"
+>>>>>>> 73c9a7788cb0f337159e99c790a5464c42963a70
         android:scaleType="fitXY"/>
 
     <TextView

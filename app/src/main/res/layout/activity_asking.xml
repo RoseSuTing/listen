@@ -8,7 +8,11 @@
    <ImageView
        android:layout_width="match_parent"
        android:layout_height="match_parent"
+<<<<<<< HEAD
        android:background="@drawable/asking"/>
+=======
+       android:background="@drawable/cat_login"/>
+>>>>>>> 73c9a7788cb0f337159e99c790a5464c42963a70
 
     <ImageView
         android:layout_width="wrap_content"
@@ -37,8 +41,13 @@
         android:layout_width="145dp"
         android:layout_height="170dp"
         android:background="@drawable/micro"
+<<<<<<< HEAD
         android:layout_marginTop="390dp"
         android:layout_marginLeft="120dp"
+=======
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="140dp"
+>>>>>>> 73c9a7788cb0f337159e99c790a5464c42963a70
         />
     <Button
         android:id="@+id/img_stop_said"
