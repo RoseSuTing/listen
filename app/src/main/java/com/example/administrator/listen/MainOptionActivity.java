@@ -2,9 +2,9 @@ package com.example.administrator.listen;
 
         import android.content.ClipData;
         import android.content.Intent;
+        import android.content.SharedPreferences;
         import android.os.Bundle;
-        import android.support.design.widget.FloatingActionButton;
-        import android.support.design.widget.Snackbar;
+        import android.support.design.widget.BottomNavigationView;
         import android.view.View;
         import android.support.design.widget.NavigationView;
         import android.support.v4.view.GravityCompat;
@@ -15,59 +15,91 @@ package com.example.administrator.listen;
         import android.view.Menu;
         import android.view.MenuItem;
         import android.widget.ImageView;
+        import android.widget.TextView;
+        import android.widget.Toast;
 
 public class MainOptionActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-    public ImageView imglisten;
-    public ImageView imgasking;
+    public TextView mTextView;
+    public ImageView second_back,img_log;
+    private BottomNavigationView mNavigationView;
     public ClipData.Item nav_history;
     public ClipData.Item nav_style;
     public ClipData.Item nav_collection;
-
+    public ImageView imgview;
+    private SessionManager session;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
+
+        Bundle bundle = getIntent().getExtras();
+        if (bundle != null) {
+            // Retrieve the parcelable
+            Feedback feedback = bundle.getParcelable("feedback");
+            // Get the from the object
+            String userName = feedback.getName();
+
+            session = new SessionManager(getApplicationContext());
+            if (!session.isLoggedIn()) {
+                logout();
+            }
+
+        }
+
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
-
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        imglisten = findViewById(R.id.imglis);
-        imgasking = findViewById(R.id.imgask);
-
+        imgview = findViewById(R.id.img);
+        second_back =findViewById(R.id.second_back);
+        imgview.setImageResource(R.drawable.style_s);
+        init();
     }
 
-    //主界面响应函数
-    public void btnGoToAsking(View view) {
-        Intent intent = new Intent(this, Asking.class);
-        startActivity(intent);
+    public void logout() {
+        // Updating the session
+        session.setLogin(false);
+        // Redirect the user to the login activity
+        startActivity(new Intent(this, LoginActivity.class));
+        finish();
     }
 
-    public void btnGoToListen(View view) {
-        Intent intent = new Intent(this, Listening.class);
-        startActivity(intent);
+    public void init(){
 
+        Intent intent =  getIntent();
+        int position = intent.getIntExtra("postion",-1);
+        if(position == 0) {
+            second_back.setImageResource(R.drawable.style_b);
+            imgview.setImageResource(R.drawable.style_s);
+        }
+        else  if(position == 1){
+            second_back.setImageResource(R.drawable.style1_b);
+            imgview.setImageResource(R.drawable.style1_s);}
+        else if(position == 2){
+            second_back.setImageResource(R.drawable.style2_b);
+            imgview.setImageResource(R.drawable.style2_s);}
+        else if(position == 3){
+            second_back.setImageResource(R.drawable.style3_b);
+            imgview.setImageResource(R.drawable.style3_s);}
+        else if(position == 4){
+            second_back.setImageResource(R.drawable.style4_b);
+            imgview.setImageResource(R.drawable.style4_s);}
     }
 
-
+public void butClick(View view)
+{
+    Intent intent = new Intent(this,Asking.class);
+    startActivity(intent);
+}
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
@@ -82,6 +114,23 @@ public class MainOptionActivity extends AppCompatActivity
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.second, menu);
+        img_log = findViewById(R.id.image_log);
+        SharedPreferences sharedPreferences= getSharedPreferences("data",
+                MainOptionActivity.MODE_PRIVATE);
+        int log = sharedPreferences.getInt("log",MODE_PRIVATE);
+        if(log == 0)
+            img_log.setImageResource(R.drawable.ba);
+        else if(log == 1)
+            img_log.setImageResource(R.drawable.log1);
+        else if(log == 2)
+            img_log.setImageResource(R.drawable.log2);
+        else if(log == 3)
+            img_log.setImageResource(R.drawable.log3);
+        else if(log == 4)
+            img_log.setImageResource(R.drawable.log4);
+
+        Toast.makeText(MainOptionActivity.this,"点击了:"+ log, Toast.LENGTH_LONG).show();
+
         return true;
     }
 
@@ -94,6 +143,7 @@ public class MainOptionActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            logout();
             return true;
         }
 
@@ -112,17 +162,7 @@ public class MainOptionActivity extends AppCompatActivity
         } else if (id == R.id.nav_gallery) {
             Intent intent = new Intent(this, Style.class);
             startActivity(intent);
-        } else if (id == R.id.nav_slideshow) {
-            Intent intent = new Intent(this, Collection.class);
-            startActivity(intent);
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
         }
-
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;

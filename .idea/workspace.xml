@@ -1,791 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b271b092-f809-48e8-8d47-0fbc48afe417" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_0_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_0_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_0_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_0_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_26_1_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_rules_1_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/listen.iml" />
-      <change beforePath="$PROJECT_DIR$/Animal/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/.idea/codeStyles/Project.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/.idea/gradle.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/.idea/runConfigurations.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/proguard-rules.pro" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/androidTest/java/com/example/administrator/animal/ExampleInstrumentedTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/AndroidManifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/assets/Fonts/04B_03.TTF" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/assets/Fonts/ARBERKLEY.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/assets/Fonts/Elgethy Est Square.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/assets/Fonts/MyriadPro-Regular.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/assets/Fonts/Roboto-Regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/assets/Fonts/font_one.TTF" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/assets/Fonts/gautami.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/java/com/example/administrator/animal/MainActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/java/com/example/administrator/animal/game_activity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/drawable/bear.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/drawable/bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/drawable/bg_blue.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/drawable/bg_green.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/drawable/bg_grey_game.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/drawable/bg_land.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/drawable/bird.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/drawable/cat.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/drawable/elephant.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/drawable/fish.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/drawable/flower.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/drawable/giraffe.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/drawable/honey.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/drawable/house.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/drawable/hypo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/drawable/ic_launcher_background.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/drawable/kangaroo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/drawable/lion.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/layout/activity_game_activity.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/layout/activity_main.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/values/colors.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/values/strings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/main/res/values/styles.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/app/src/test/java/com/example/administrator/animal/ExampleUnitTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/gradle.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/gradlew" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/gradlew.bat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Animal/settings.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/.idea/gradle.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/.idea/runConfigurations.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/.idea/vcs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/proguard-rules.pro" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/androidTest/java/com/example/administrator/gameanimals/ExampleInstrumentedTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/AndroidManifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/java/com/example/administrator/gameanimals/MainActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/java/com/example/administrator/gameanimals/PlayActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/drawable/bear.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/drawable/bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/drawable/bg_blue.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/drawable/bird.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/drawable/cat.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/drawable/elephant.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/drawable/fish.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/drawable/flower.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/drawable/giraffe.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/drawable/honey.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/drawable/house.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/drawable/hypo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/drawable/ic_launcher_background.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/drawable/kangaroo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/drawable/leo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/drawable/lion.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/drawable/pig.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/drawable/rhino.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/drawable/sun.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/drawable/tiger.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/drawable/wolf.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/layout/activity_main.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/layout/activity_play.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/values/colors.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/values/strings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/main/res/values/styles.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/app/src/test/java/com/example/administrator/gameanimals/ExampleUnitTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/Fonts/04B_03.TTF" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/Fonts/ARBERKLEY.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/Fonts/Elgethy Est Square.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/Fonts/MyriadPro-Regular.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/Fonts/Roboto-Regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/Fonts/font_one.TTF" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/Fonts/gautami.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bear/24w/bearArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bear/256w/bearArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bear/32w/bearArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bear/48w/bearArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bear/512w/bearArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bear/64w/bearArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bear/96w/bearArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bg_blue.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bg_blue_game.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bg_green.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bg_green_game.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bg_grey.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bg_grey_game.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bg_land.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bird/24w/birdArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bird/24w/bird_noArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bird/24w/bird_okArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bird/256w/birdArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bird/256w/bird_noArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bird/256w/bird_okArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bird/32w/birdArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bird/32w/bird_noArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bird/32w/bird_okArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bird/48w/birdArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bird/48w/bird_noArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bird/48w/bird_okArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bird/512w/birdArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bird/512w/bird_noArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bird/512w/bird_okArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bird/64w/birdArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bird/64w/bird_noArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bird/64w/bird_okArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bird/96w/birdArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bird/96w/bird_noArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/bird/96w/bird_okArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/cat/24w/catArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/cat/24w/cat_noArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/cat/24w/cat_okArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/cat/256w/catArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/cat/256w/cat_noArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/cat/256w/cat_okArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/cat/32w/catArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/cat/32w/cat_noArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/cat/32w/cat_okArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/cat/48w/catArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/cat/48w/cat_noArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/cat/48w/cat_okArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/cat/512w/catArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/cat/512w/cat_noArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/cat/512w/cat_okArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/cat/64w/catArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/cat/64w/cat_noArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/cat/64w/cat_okArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/cat/96w/catArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/cat/96w/cat_noArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/cat/96w/cat_okArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/comments/24w/commentsArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/comments/256w/commentsArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/comments/32w/commentsArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/comments/48w/commentsArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/comments/512w/commentsArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/comments/64w/commentsArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/comments/96w/commentsArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/elephant/24w/elephantArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/elephant/256w/elephantArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/elephant/32w/elephantArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/elephant/48w/elephantArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/elephant/512w/elephantArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/elephant/64w/elephantArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/elephant/96w/elephantArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/fireworks/24w/fireworksArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/fireworks/256w/fireworksArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/fireworks/32w/fireworksArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/fireworks/48w/fireworksArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/fireworks/512w/fireworksArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/fireworks/64w/fireworksArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/fireworks/96w/fireworksArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/fish/24w/fishArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/fish/24w/fish_noArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/fish/24w/fish_okArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/fish/256w/fishArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/fish/256w/fish_noArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/fish/256w/fish_okArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/fish/32w/fishArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/fish/32w/fish_noArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/fish/32w/fish_okArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/fish/48w/fishArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/fish/48w/fish_noArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/fish/48w/fish_okArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/fish/512w/fishArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/fish/512w/fish_noArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/fish/512w/fish_okArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/fish/64w/fishArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/fish/64w/fish_noArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/fish/64w/fish_okArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/fish/96w/fishArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/fish/96w/fish_noArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/fish/96w/fish_okArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/flower/24w/flowerArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/flower/24w/flower_okArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/flower/256w/flowerArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/flower/256w/flower_okArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/flower/32w/flowerArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/flower/32w/flower_okArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/flower/48w/flowerArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/flower/48w/flower_okArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/flower/512w/flowerArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/flower/512w/flower_okArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/flower/64w/flowerArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/flower/64w/flower_okArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/flower/96w/flowerArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/flower/96w/flower_okArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/giraffe/24w/giraffeArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/giraffe/256w/giraffeArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/giraffe/32w/giraffeArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/giraffe/48w/giraffeArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/giraffe/512w/giraffeArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/giraffe/64w/giraffeArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/giraffe/96w/giraffeArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/honey/24w/honeyArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/honey/24w/honey_noArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/honey/24w/honey_okArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/honey/256w/honeyArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/honey/256w/honey_noArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/honey/256w/honey_okArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/honey/32w/honeyArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/honey/32w/honey_noArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/honey/32w/honey_okArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/honey/48w/honeyArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/honey/48w/honey_noArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/honey/48w/honey_okArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/honey/512w/honeyArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/honey/512w/honey_noArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/honey/512w/honey_okArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/honey/64w/honeyArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/honey/64w/honey_noArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/honey/64w/honey_okArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/honey/96w/honeyArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/honey/96w/honey_noArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/honey/96w/honey_okArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/house/24w/houseArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/house/24w/house_noArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/house/24w/house_okArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/house/256w/houseArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/house/256w/house_noArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/house/256w/house_okArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/house/32w/houseArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/house/32w/house_noArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/house/32w/house_okArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/house/48w/houseArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/house/48w/house_noArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/house/48w/house_okArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/house/512w/houseArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/house/512w/house_noArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/house/512w/house_okArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/house/64w/houseArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/house/64w/house_noArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/house/64w/house_okArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/house/96w/houseArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/house/96w/house_noArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/house/96w/house_okArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/hypo/24w/hypoArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/hypo/256w/hypoArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/hypo/32w/hypoArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/hypo/48w/hypoArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/hypo/512w/hypoArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/hypo/64w/hypoArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/hypo/96w/hypoArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/kangaroo/24w/kangarooArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/kangaroo/256w/kangarooArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/kangaroo/32w/kangarooArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/kangaroo/48w/kangarooArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/kangaroo/512w/kangarooArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/kangaroo/64w/kangarooArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/kangaroo/96w/kangarooArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/leo/24w/leoArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/leo/256w/leoArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/leo/32w/leoArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/leo/48w/leoArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/leo/512w/leoArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/leo/64w/leoArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/leo/96w/leoArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/like/24w/likeArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/like/256w/likeArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/like/32w/likeArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/like/48w/likeArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/like/512w/likeArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/like/64w/likeArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/like/96w/likeArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/lion/24w/lionArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/lion/256w/lionArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/lion/32w/lionArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/lion/48w/lionArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/lion/512w/lionArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/lion/64w/lionArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/lion/96w/lionArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/pig/24w/pigArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/pig/24w/pig_noArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/pig/24w/pig_okArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/pig/256w/pigArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/pig/256w/pig_noArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/pig/256w/pig_okArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/pig/32w/pigArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/pig/32w/pig_noArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/pig/32w/pig_okArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/pig/48w/pigArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/pig/48w/pig_noArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/pig/48w/pig_okArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/pig/512w/pigArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/pig/512w/pig_noArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/pig/512w/pig_okArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/pig/64w/pigArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/pig/64w/pig_noArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/pig/64w/pig_okArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/pig/96w/pigArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/pig/96w/pig_noArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/pig/96w/pig_okArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/rhino/24w/rhinoArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/rhino/256w/rhinoArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/rhino/32w/rhinoArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/rhino/48w/rhinoArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/rhino/512w/rhinoArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/rhino/64w/rhinoArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/rhino/96w/rhinoArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/round pixel bg/24w/round_pxArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/round pixel bg/256w/round_pxArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/round pixel bg/32w/round_pxArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/round pixel bg/48w/round_pxArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/round pixel bg/512w/round_pxArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/round pixel bg/64w/round_pxArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/round pixel bg/96w/round_pxArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/simulation_design.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/simulation_design_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/skull_go/24w/skullArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/skull_go/256w/skullArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/skull_go/32w/skullArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/skull_go/48w/skullArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/skull_go/512w/skullArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/skull_go/64w/skullArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/skull_go/96w/skullArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/smile_great/24w/smileyArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/smile_great/256w/smileyArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/smile_great/32w/smileyArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/smile_great/48w/smileyArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/smile_great/512w/smileyArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/smile_great/64w/smileyArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/smile_great/96w/smileyArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/sun/24w/sunArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/sun/24w/sun_noArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/sun/24w/sun_okArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/sun/256w/sunArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/sun/256w/sun_noArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/sun/256w/sun_okArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/sun/32w/sunArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/sun/32w/sun_noArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/sun/32w/sun_okArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/sun/48w/sunArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/sun/48w/sun_noArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/sun/48w/sun_okArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/sun/512w/sunArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/sun/512w/sun_noArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/sun/512w/sun_okArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/sun/64w/sunArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/sun/64w/sun_noArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/sun/64w/sun_okArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/sun/96w/sunArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/sun/96w/sun_noArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/sun/96w/sun_okArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/tiger/24w/tigerArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/tiger/256w/tigerArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/tiger/32w/tigerArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/tiger/48w/tigerArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/tiger/512w/tigerArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/tiger/64w/tigerArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/tiger/96w/tigerArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/wolf/24w/wolfArtboard 1ldpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/wolf/256w/wolfArtboard 1xxxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/wolf/32w/wolfArtboard 1mdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/wolf/48w/wolfArtboard 1hdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/wolf/512w/wolfArtboard 1512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/wolf/64w/wolfArtboard 1xhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/assets/png/wolf/96w/wolfArtboard 1xxhdpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/display/demo.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/display/demo_1.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/display/demo_2.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/gradle.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/gradlew" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/gradlew.bat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/readme.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AnimalGame/settings.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/.idea/caches/build_file_checksums.ser" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/.idea/codeStyles/Project.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/.idea/gradle.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/.idea/runConfigurations.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/proguard-rules.pro" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/androidTest/java/com/example/administrator/listen/ExampleInstrumentedTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/AndroidManifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/java/com/example/administrator/listen/Asking.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/java/com/example/administrator/listen/Collection.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/java/com/example/administrator/listen/History.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/java/com/example/administrator/listen/Listening.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/java/com/example/administrator/listen/LoginActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/java/com/example/administrator/listen/MainOptionActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/java/com/example/administrator/listen/RegisterAccount.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/java/com/example/administrator/listen/Student.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/java/com/example/administrator/listen/StudentArrayAdapter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/java/com/example/administrator/listen/Style.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/java/com/example/administrator/listen/ViewHolder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/drawable-v21/ic_menu_camera.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/drawable-v21/ic_menu_gallery.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/drawable-v21/ic_menu_manage.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/drawable-v21/ic_menu_send.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/drawable-v21/ic_menu_share.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/drawable-v21/ic_menu_slideshow.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/drawable/asking.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/drawable/background.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/drawable/begin.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/drawable/circle.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/drawable/ic_launcher_background.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/drawable/liste.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/drawable/listen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/drawable/micro.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/drawable/side_nav_bar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/drawable/stop.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/drawable/stop_said.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/drawable/voice.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/layout/activity_asking.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/layout/activity_collection.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/layout/activity_listen.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/layout/activity_second.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/layout/activity_style.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/layout/app_bar_second.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/layout/content_second.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/layout/item_layout.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/layout/layout_history.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/layout/layout_register.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/layout/login.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/layout/nav_header_second.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/menu/activity_second_drawer.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/menu/second.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/values-v21/styles.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/values/colors.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/values/dimens.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/values/drawables.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/values/strings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/main/res/values/styles.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/app/src/test/java/com/example/administrator/listen/ExampleUnitTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/gradle.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/gradlew" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/gradlew.bat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ListenDemo/settings.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/AndroidManifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/bin/Media2.apk" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/bin/classes.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/bin/classes/com/NNN/BuildConfig.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/bin/classes/com/NNN/EX07$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/bin/classes/com/NNN/EX07$10.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/bin/classes/com/NNN/EX07$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/bin/classes/com/NNN/EX07$3.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/bin/classes/com/NNN/EX07$4.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/bin/classes/com/NNN/EX07$5.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/bin/classes/com/NNN/EX07$6.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/bin/classes/com/NNN/EX07$7.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/bin/classes/com/NNN/EX07$8.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/bin/classes/com/NNN/EX07$9.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/bin/classes/com/NNN/EX07.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/bin/classes/com/NNN/R$attr.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/bin/classes/com/NNN/R$drawable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/bin/classes/com/NNN/R$id.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/bin/classes/com/NNN/R$layout.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/bin/classes/com/NNN/R$string.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/bin/classes/com/NNN/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/bin/classes/com/NNN/showSize.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/bin/jarlist.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/bin/res/drawable/delete_dis.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/bin/res/drawable/delete_hover.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/bin/res/drawable/icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/bin/res/drawable/play1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/bin/res/drawable/play_hover1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/bin/res/drawable/record_dis1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/bin/res/drawable/record_hover1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/bin/res/drawable/stop1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/bin/res/drawable/stop_hover2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/bin/resources.ap_" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/gen/com/NNN/BuildConfig.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/gen/com/NNN/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/project.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/res/drawable/delete_dis.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/res/drawable/delete_hover.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/res/drawable/icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/res/drawable/kk.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/res/drawable/ll.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/res/drawable/play1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/res/drawable/play_hover1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/res/drawable/record_dis1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/res/drawable/record_hover1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/res/drawable/stop1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/res/drawable/stop_hover2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/res/layout/main.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/res/values/strings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/src/com/NNN/EX07.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Media2/src/com/NNN/showSize.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/.idea/MiCode-SoundRecorder-15aa813.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/AndroidManifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/NOTICE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/README" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/background.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/background_key.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/background_number.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/background_vumeter.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/btn_delete_disabled.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/btn_delete_normal.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/btn_delete_pressed.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/btn_finish_disabled.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/btn_finish_normal.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/btn_finish_pressed.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/btn_new_disabled.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/btn_new_normal.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/btn_new_pressed.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/btn_pause_normal.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/btn_pause_pressed.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/btn_play_normal.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/btn_play_pressed.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/btn_record_normal.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/btn_record_pressed.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/btn_stop_normal.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/btn_stop_pressed.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/colon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/empty_icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/folder.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/ic_launcher_soundrecorder.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/ic_menu_fm.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/ic_menu_view_list.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/icon_vumeter.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/number_0.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/number_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/number_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/number_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/number_4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/number_5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/number_6.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/number_7.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/number_8.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/number_9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/play.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/record.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/stat_sys_call_record.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/stat_sys_call_record_full.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/stop.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/tape_bottom.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/tape_top.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/wheel_left.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/wheel_right.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/wheel_small_left.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable-hdpi/wheel_small_right.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable/btn_delete.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable/btn_finish.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable/btn_new.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable/btn_pause.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable/btn_play.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable/btn_record.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/drawable/btn_stop.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/layout/context_menu_header.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/layout/main.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/layout/view_list_menu.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/values-zh-rCN/strings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/values/arrays.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/values/strings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/res/xml/preferences.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/src/net/micode/soundrecorder/RecordNameEditText.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/src/net/micode/soundrecorder/Recorder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/src/net/micode/soundrecorder/RecorderService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/src/net/micode/soundrecorder/RemainingTimeCalculator.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/src/net/micode/soundrecorder/SeamlessAnimation.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/src/net/micode/soundrecorder/SoundRecorder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/src/net/micode/soundrecorder/SoundRecorderPreferenceActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MiCode-SoundRecorder-15aa813/src/net/micode/soundrecorder/WheelImageView.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/.idea/gradle.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/.idea/runConfigurations.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/app/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/app/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/app/proguard-rules.pro" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/app/src/androidTest/java/com/example/administrator/show/ExampleInstrumentedTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/app/src/main/AndroidManifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/app/src/main/java/com/example/administrator/show/MainActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/app/src/main/res/drawable/adalovelace.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/app/src/main/res/drawable/ic_launcher_background.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/app/src/main/res/drawable/jamgosling.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/app/src/main/res/layout-land/activity_main.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/app/src/main/res/layout/activity_main.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/app/src/main/res/values-zh-rCN/strings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/app/src/main/res/values/colors.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/app/src/main/res/values/strings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/app/src/main/res/values/styles.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/app/src/test/java/com/example/administrator/show/ExampleUnitTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/gradle.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/gradlew" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/gradlew.bat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Show/settings.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/.idea/caches/build_file_checksums.ser" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/.idea/codeStyles/Project.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/.idea/gradle.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/.idea/runConfigurations.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/proguard-rules.pro" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/androidTest/java/mg/studio/weatherappdesign/ExampleInstrumentedTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/AndroidManifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/ic_launcher-web.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/java/mg/studio/weatherappdesign/MainActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/java/mg/studio/weatherappdesign/Temperature.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/drawable/blue.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/drawable/button_selector.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/drawable/button_shape.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/drawable/button_shape_pressed.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/drawable/design.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/drawable/ic_launcher_background.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/drawable/notification.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/drawable/partly_sunny_small.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/drawable/rainy_small.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/drawable/rainy_up.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/drawable/sunny_small.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/drawable/update.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/drawable/white.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/drawable/windy_small.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/layout/activity_main.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/values/colors.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/values/strings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/main/res/values/styles.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/app/src/test/java/mg/studio/weatherappdesign/ExampleUnitTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/display/DownloadUpdate.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/display/btn_click.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/display/button.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/display/change_txt_on_btn_clicked.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/display/create_a_new_project.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/display/design_version_01.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/display/design_version_02.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/display/drawable.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/display/landscape.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/display/layout_part_one.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/display/manifest_no_action_bar.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/display/need_to_achieve_weather_app.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/display/new_project.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/display/paste_drawables.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/display/re_draw.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/display/slices.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/display/textview_id.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/display/toolbar_none.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/display/weather_app.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/display/weather_app_assign.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/gradle.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/gradlew" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/gradlew.bat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/readme.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WeatherApp/settings.gradle" afterPath="" />
+    <list default="true" id="da9cab4d-b23d-49e4-a25f-f7d6b25828e4" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/Config.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/Feedback.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/SessionManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/WelcomeActivity.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/asking.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ba.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cat1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cat2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cat3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/history.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/log1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/log2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/log3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/log4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/point_disenable.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/point_enable.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/point_selector.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/style.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/style1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/style1_b.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/style1_s.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/style2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/style2_b.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/style2_s.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/style3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/style3_b.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/style3_s.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/style4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/style4_b.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/style4_s.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/style_b.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/style_s.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/welcome.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_welcome.xml" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_0_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_26_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_26_1_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_26_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_26_1_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_0_2.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_0_2_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_0_2_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_26_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_26_1_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_26_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_26_1_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_26_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_26_1_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_26_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_26_1_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_26_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_26_1_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_26_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_26_1_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_26_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_26_1_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_26_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_26_1_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_26_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_26_1_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_rules_1_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_rules_1_0_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_26_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_26_1_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/Asking.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/Asking.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/History.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/History.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/Listening.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/LoginActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/MainOptionActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/MainOptionActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/RegisterAccount.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/RegisterAccount.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/Student.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/StudentArrayAdapter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/Style.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/Style.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/ViewHolder.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/asking.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/background.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/begin.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/liste.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/listen.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/micro.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/micro.png" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/stop.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/stop_said.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_asking.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_asking.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_listen.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_second.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_second.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_style.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_style.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_second.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_second.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_second.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_second.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_history.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_history.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_register.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_register.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/login.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/login.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/nav_header_second.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/nav_header_second.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/activity_second_drawer.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/activity_second_drawer.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/second.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/second.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" afterPath="$PROJECT_DIR$/gradle.properties" />
+      <change beforePath="$PROJECT_DIR$/listen" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/listen.iml" afterPath="$PROJECT_DIR$/listen.iml" />
+      <change beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -799,13 +132,177 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="layout_register.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_register.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Collection.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/Collection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/login.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="72" column="54" lean-forward="false" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisterAccount.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/RegisterAccount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+              <folding>
+                <element signature="method#CheckNumber#0;class#RegisterAccount#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="66" lean-forward="false" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-manifest">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_style.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_style.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/LoginActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="269" column="27" lean-forward="false" selection-start-line="269" selection-start-column="16" selection-end-line="269" selection-end-column="27" />
+              <folding>
+                <element signature="method#onCreate#0;class#LoginActivity#0" expanded="false" />
+                <element signature="e#2211#2246#0" expanded="true" />
+                <element signature="e#3202#4078#0" expanded="true" />
+                <element signature="e#3664#4010#0" expanded="true" />
+                <element signature="e#3775#3787#0" expanded="false" />
+                <element signature="e#4009#4010#0" expanded="true" />
+                <element signature="e#4077#4078#0" expanded="true" />
+                <element signature="method#initViews#0;class#LoginActivity#0" expanded="false" />
+                <element signature="method#initData#0;class#LoginActivity#0" expanded="false" />
+                <element signature="method#initAdapter#0;class#LoginActivity#0" expanded="false" />
+                <element signature="method#onDestroy#0;class#LoginActivity#0" expanded="false" />
+                <element signature="class#MyPagerAdapter#0;class#LoginActivity#0" expanded="false" />
+                <element signature="e#6542#7013#0" expanded="true" />
+                <element signature="e#7012#7013#0" expanded="true" />
+                <element signature="method#onPageScrolled#0;class#LoginActivity#0" expanded="false" />
+                <element signature="method#onPageSelected#0;class#LoginActivity#0" expanded="false" />
+                <element signature="method#onPageScrollStateChanged#0;class#LoginActivity#0" expanded="false" />
+                <element signature="method#btnLogin#0;class#LoginActivity#0" expanded="false" />
+                <element signature="e#8760#8786#0" expanded="true" />
+                <element signature="class#OnlineCredentialValidation#0;class#LoginActivity#0" expanded="false" />
+                <element signature="method#doInBackground#0;class#OnlineCredentialValidation#0;class#LoginActivity#0" expanded="false" />
+                <element signature="method#onPostExecute#0;class#OnlineCredentialValidation#0;class#LoginActivity#0" expanded="false" />
+                <element signature="method#parsingResponse#0;class#LoginActivity#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Feedback.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/Feedback.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainOptionActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/MainOptionActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="146" column="24" lean-forward="false" selection-start-line="146" selection-start-column="24" selection-end-line="146" selection-end-column="24" />
+              <folding>
+                <element signature="e#2146#2177#0" expanded="true" />
+                <element signature="e#2179#2211#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/Config.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#377#378#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-all/9br9xq1tocpiv8o6njlyu5op1/gradle-4.4" />
+        <entry key="$PROJECT_DIR$" value="C:\Users\Administrator\.gradle\wrapper\dists\gradle-4.4-all\9br9xq1tocpiv8o6njlyu5op1\gradle-4.4" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -945,10 +442,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="processDebugResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformNativeLibsWithStripDebugSymbolForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs lint on all variants." />
@@ -1368,10 +861,6 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformNativeLibsWithStripDebugSymbolForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileDebugNdk" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1701,10 +1190,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="processDebugResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="transformNativeLibsWithStripDebugSymbolForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs lint on all variants." />
@@ -2116,10 +1601,6 @@
                 <option name="description" value="Run unit tests for all variants." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="transformNativeLibsWithStripDebugSymbolForDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -2831,10 +2312,28 @@
       </map>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="742" />
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/java/Config.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/Feedback.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/Feedback.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/SessionManager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/login.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/layout_register.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/Config.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/MainOptionActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/RegisterAccount.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-11" />
+    <option name="width" value="1932" />
+    <option name="height" value="1042" />
   </component>
   <component name="ProjectView">
     <navigator currentView="AndroidView" proportions="" version="1">
@@ -2851,6 +2350,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -2866,16 +2367,13 @@
             <path>
               <item name="listen" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
             </path>
             <path>
               <item name="listen" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="listen" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
           </expand>
           <select />
@@ -2883,15 +2381,20 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="ProjectPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="android.sdk.path" value="G:/Andstudio/sdk" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="device.picker.selection" value="d5d5e0480604" />
+    <property name="last_opened_file_path" value="$USER_HOME$/learngit/Login" />
+    <property name="device.picker.selection" value="1a39dea9" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.administrator.listen" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -3064,46 +2567,48 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b271b092-f809-48e8-8d47-0fbc48afe417" name="Default" comment="" />
-      <created>1522656766000</created>
+      <changelist id="da9cab4d-b23d-49e4-a25f-f7d6b25828e4" name="Default" comment="" />
+      <created>1523683909023</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1522656766000</updated>
+      <updated>1523683909023</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="739" extended-state="6" />
+    <frame x="-11" y="0" width="1932" height="1042" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293556" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06085919" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972856" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24972856" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972856" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -3112,5 +2617,382 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_register.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2187">
+          <caret line="81" column="40" lean-forward="false" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/login.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/RegisterAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+          <folding>
+            <element signature="method#CheckNumber#0;class#RegisterAccount#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/SessionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/Feedback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/MainOptionActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="e#2146#2177#0" expanded="true" />
+            <element signature="e#2179#2211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="31" column="69" lean-forward="false" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1458">
+          <caret line="267" column="5" lean-forward="false" selection-start-line="267" selection-start-column="5" selection-end-line="267" selection-end-column="5" />
+          <folding>
+            <element signature="method#onCreate#0;class#LoginActivity#0" expanded="false" />
+            <element signature="e#2211#2246#0" expanded="true" />
+            <element signature="e#3202#4078#0" expanded="true" />
+            <element signature="e#3664#4010#0" expanded="true" />
+            <element signature="e#3775#3787#0" expanded="false" />
+            <element signature="e#4009#4010#0" expanded="true" />
+            <element signature="e#4077#4078#0" expanded="true" />
+            <element signature="method#initViews#0;class#LoginActivity#0" expanded="false" />
+            <element signature="method#initData#0;class#LoginActivity#0" expanded="false" />
+            <element signature="method#initAdapter#0;class#LoginActivity#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#LoginActivity#0" expanded="false" />
+            <element signature="class#MyPagerAdapter#0;class#LoginActivity#0" expanded="false" />
+            <element signature="e#6542#7013#0" expanded="true" />
+            <element signature="e#7012#7013#0" expanded="true" />
+            <element signature="method#onPageScrolled#0;class#LoginActivity#0" expanded="false" />
+            <element signature="method#onPageSelected#0;class#LoginActivity#0" expanded="false" />
+            <element signature="method#onPageScrollStateChanged#0;class#LoginActivity#0" expanded="false" />
+            <element signature="method#btnLogin#0;class#LoginActivity#0" expanded="false" />
+            <element signature="e#8760#8786#0" expanded="true" />
+            <element signature="class#OnlineCredentialValidation#0;class#LoginActivity#0" expanded="false" />
+            <element signature="method#doInBackground#0;class#OnlineCredentialValidation#0;class#LoginActivity#0" expanded="false" />
+            <element signature="method#onPostExecute#0;class#OnlineCredentialValidation#0;class#LoginActivity#0" expanded="false" />
+            <element signature="method#parsingResponse#0;class#LoginActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_register.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2187">
+          <caret line="81" column="40" lean-forward="false" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/login.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/RegisterAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+          <folding>
+            <element signature="method#CheckNumber#0;class#RegisterAccount#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/SessionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/Feedback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/MainOptionActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="e#2146#2177#0" expanded="true" />
+            <element signature="e#2179#2211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="31" column="69" lean-forward="false" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1458">
+          <caret line="267" column="5" lean-forward="false" selection-start-line="267" selection-start-column="5" selection-end-line="267" selection-end-column="5" />
+          <folding>
+            <element signature="method#onCreate#0;class#LoginActivity#0" expanded="false" />
+            <element signature="e#2211#2246#0" expanded="true" />
+            <element signature="e#3202#4078#0" expanded="true" />
+            <element signature="e#3664#4010#0" expanded="true" />
+            <element signature="e#3775#3787#0" expanded="false" />
+            <element signature="e#4009#4010#0" expanded="true" />
+            <element signature="e#4077#4078#0" expanded="true" />
+            <element signature="method#initViews#0;class#LoginActivity#0" expanded="false" />
+            <element signature="method#initData#0;class#LoginActivity#0" expanded="false" />
+            <element signature="method#initAdapter#0;class#LoginActivity#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#LoginActivity#0" expanded="false" />
+            <element signature="class#MyPagerAdapter#0;class#LoginActivity#0" expanded="false" />
+            <element signature="e#6542#7013#0" expanded="true" />
+            <element signature="e#7012#7013#0" expanded="true" />
+            <element signature="method#onPageScrolled#0;class#LoginActivity#0" expanded="false" />
+            <element signature="method#onPageSelected#0;class#LoginActivity#0" expanded="false" />
+            <element signature="method#onPageScrollStateChanged#0;class#LoginActivity#0" expanded="false" />
+            <element signature="method#btnLogin#0;class#LoginActivity#0" expanded="false" />
+            <element signature="e#8760#8786#0" expanded="true" />
+            <element signature="class#OnlineCredentialValidation#0;class#LoginActivity#0" expanded="false" />
+            <element signature="method#doInBackground#0;class#OnlineCredentialValidation#0;class#LoginActivity#0" expanded="false" />
+            <element signature="method#onPostExecute#0;class#OnlineCredentialValidation#0;class#LoginActivity#0" expanded="false" />
+            <element signature="method#parsingResponse#0;class#LoginActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/ViewHolder.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/Config.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/Feedback.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/SessionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="31" column="69" lean-forward="false" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_style.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="269" column="27" lean-forward="false" selection-start-line="269" selection-start-column="16" selection-end-line="269" selection-end-column="27" />
+          <folding>
+            <element signature="method#onCreate#0;class#LoginActivity#0" expanded="false" />
+            <element signature="e#2211#2246#0" expanded="true" />
+            <element signature="e#3202#4078#0" expanded="true" />
+            <element signature="e#3664#4010#0" expanded="true" />
+            <element signature="e#3775#3787#0" expanded="false" />
+            <element signature="e#4009#4010#0" expanded="true" />
+            <element signature="e#4077#4078#0" expanded="true" />
+            <element signature="method#initViews#0;class#LoginActivity#0" expanded="false" />
+            <element signature="method#initData#0;class#LoginActivity#0" expanded="false" />
+            <element signature="method#initAdapter#0;class#LoginActivity#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#LoginActivity#0" expanded="false" />
+            <element signature="class#MyPagerAdapter#0;class#LoginActivity#0" expanded="false" />
+            <element signature="e#6542#7013#0" expanded="true" />
+            <element signature="e#7012#7013#0" expanded="true" />
+            <element signature="method#onPageScrolled#0;class#LoginActivity#0" expanded="false" />
+            <element signature="method#onPageSelected#0;class#LoginActivity#0" expanded="false" />
+            <element signature="method#onPageScrollStateChanged#0;class#LoginActivity#0" expanded="false" />
+            <element signature="method#btnLogin#0;class#LoginActivity#0" expanded="false" />
+            <element signature="e#8760#8786#0" expanded="true" />
+            <element signature="class#OnlineCredentialValidation#0;class#LoginActivity#0" expanded="false" />
+            <element signature="method#doInBackground#0;class#OnlineCredentialValidation#0;class#LoginActivity#0" expanded="false" />
+            <element signature="method#onPostExecute#0;class#OnlineCredentialValidation#0;class#LoginActivity#0" expanded="false" />
+            <element signature="method#parsingResponse#0;class#LoginActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_register.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/login.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="72" column="54" lean-forward="false" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/Feedback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/MainOptionActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="146" column="24" lean-forward="false" selection-start-line="146" selection-start-column="24" selection-end-line="146" selection-end-column="24" />
+          <folding>
+            <element signature="e#2146#2177#0" expanded="true" />
+            <element signature="e#2179#2211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/administrator/listen/RegisterAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+          <folding>
+            <element signature="method#CheckNumber#0;class#RegisterAccount#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="66" lean-forward="false" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
   </component>
 </project>
