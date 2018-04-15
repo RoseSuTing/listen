@@ -2,7 +2,10 @@ package com.example.administrator.listen;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
+<<<<<<< HEAD
 import android.content.SharedPreferences;
+=======
+>>>>>>> 9ce83f40cd824e521188b6531d55d310f4b6e0b2
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -50,6 +53,7 @@ public class RegisterAccount extends AppCompatActivity {
         inputFullName = findViewById(R.id.et_username);
         inputEmail = findViewById(R.id.et_email);
         inputPassword = findViewById(R.id.text_password);
+<<<<<<< HEAD
         but_register = findViewById(R.id.btnRegister);
         btnLinkToLogin = findViewById(R.id.btnLinkToLoginScreen);
 
@@ -89,6 +93,52 @@ public class RegisterAccount extends AppCompatActivity {
             }
         });
 
+=======
+        check_number = findViewById(R.id.text_checknum);
+        ccknumb = findViewById(R.id.check_numb);
+        but_register = findViewById(R.id.btnRegister);
+        btnLinkToLogin = findViewById(R.id.btnLinkToLoginScreen);
+
+        //验证码
+        CheckNumber();
+
+        // Preparing the Progress dialog
+        pDialog = new ProgressDialog(this);
+        pDialog.setCancelable(false);
+
+
+        // Session manager
+        session = new SessionManager(getApplicationContext());
+        // Check if user is already logged in or not
+        if (session.isLoggedIn()) {
+            // User is already logged in. Take him to main activity
+            startActivity(new Intent(this, MainOptionActivity.class));
+            finish();
+        }
+
+        // Register Button Click event
+        but_register.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                name = inputFullName.getText().toString().trim();
+                String email = inputEmail.getText().toString().trim();
+                String password = inputPassword.getText().toString().trim();
+
+                if (!name.isEmpty() && !email.isEmpty() && !password.isEmpty()) {
+                    // Avoid repeated clicks by disabling the button
+                    but_register.setClickable(false);
+                    //Register the user
+                    registerUser(name, email, password);
+
+
+                } else {
+                    Toast.makeText(getApplicationContext(),
+                            "Please enter your details!", Toast.LENGTH_LONG)
+                            .show();
+                }
+            }
+        });
+
+>>>>>>> 9ce83f40cd824e521188b6531d55d310f4b6e0b2
         // Link to Login Screen
         btnLinkToLogin.setOnClickListener(new View.OnClickListener() {
 
@@ -111,6 +161,20 @@ public class RegisterAccount extends AppCompatActivity {
 
     }
 
+<<<<<<< HEAD
+=======
+    private void registerUser(final String name, final String email,
+                              final String password) {
+
+        pDialog.setMessage("Registering ...");
+        if (!pDialog.isShowing()) pDialog.show();
+        //Todo: Need to check Internet connection
+        new DownloadData().execute(name, email, password);
+
+
+    }
+
+>>>>>>> 9ce83f40cd824e521188b6531d55d310f4b6e0b2
     class DownloadData extends AsyncTask<String, Void, Integer> {
 
 

@@ -7,7 +7,15 @@
 <ImageView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     android:background="#b2dfee"/>
+=======
+<<<<<<< HEAD
+    android:background="#b2dfee"/>
+=======
+    android:background="@drawable/cat2"/>
+>>>>>>> 73c9a7788cb0f337159e99c790a5464c42963a70
+>>>>>>> 9ce83f40cd824e521188b6531d55d310f4b6e0b2
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,6 +29,10 @@
             android:id="@+id/vp"
             android:layout_width="100dp"
             android:layout_height="100dp"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 9ce83f40cd824e521188b6531d55d310f4b6e0b2
            android:layout_marginTop="50dp"
             android:layout_marginLeft="130dp"/>
         <TextView
@@ -32,13 +44,28 @@
             android:visibility="gone"
             android:textStyle="bold"
             android:layout_margin="8dp"/>
+<<<<<<< HEAD
+=======
+=======
+           android:layout_marginTop="60dp"
+            android:layout_marginLeft="130dp"/>
+>>>>>>> 73c9a7788cb0f337159e99c790a5464c42963a70
+>>>>>>> 9ce83f40cd824e521188b6531d55d310f4b6e0b2
 
         <EditText
             android:id="@+id/username"
             android:layout_width="212dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+<<<<<<< HEAD
             android:layout_marginTop="60dp"
+=======
+<<<<<<< HEAD
+            android:layout_marginTop="60dp"
+=======
+            android:layout_marginTop="70dp"
+>>>>>>> 73c9a7788cb0f337159e99c790a5464c42963a70
+>>>>>>> 9ce83f40cd824e521188b6531d55d310f4b6e0b2
             android:singleLine="true"
             tools:layout_editor_absoluteX="75dp"
             tools:layout_editor_absoluteY="201dp" />
@@ -48,7 +75,15 @@
             android:layout_width="212dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+<<<<<<< HEAD
             android:layout_marginTop="60dp"
+=======
+<<<<<<< HEAD
+            android:layout_marginTop="60dp"
+=======
+            android:layout_marginTop="80dp"
+>>>>>>> 73c9a7788cb0f337159e99c790a5464c42963a70
+>>>>>>> 9ce83f40cd824e521188b6531d55d310f4b6e0b2
             android:inputType="textPassword"
             android:singleLine="true"
             tools:layout_editor_absoluteX="75dp"
@@ -59,6 +94,10 @@
             android:layout_width="209dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 9ce83f40cd824e521188b6531d55d310f4b6e0b2
             android:layout_marginTop="80dp"
             android:onClick="btnLogin"
             android:text="@string/login"
@@ -74,5 +113,16 @@
             android:textAllCaps="false"
             android:onClick="btnRegister"
             android:textSize="15sp" />
+<<<<<<< HEAD
+=======
+=======
+            android:layout_marginTop="100dp"
+            android:onClick="logClick"
+            android:text="login"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black"/>
+
+>>>>>>> 73c9a7788cb0f337159e99c790a5464c42963a70
+>>>>>>> 9ce83f40cd824e521188b6531d55d310f4b6e0b2
     </LinearLayout>
 </RelativeLayout>

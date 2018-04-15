@@ -13,6 +13,7 @@
         android:id="@+id/second_back"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+<<<<<<< HEAD
         android:layout_alignParentTop="true"
         android:background="@drawable/style_b"
         android:scaleType="fitXY" />
@@ -37,5 +38,30 @@
             android:scaleType="fitXY" />
 
     </LinearLayout>
+=======
+<<<<<<< HEAD
+        android:background="@drawable/style_b"
+=======
+        android:background="@drawable/cat"
+>>>>>>> 73c9a7788cb0f337159e99c790a5464c42963a70
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="101dp"
+<<<<<<< HEAD
+        android:layout_height="129dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="450dp"
+        android:scaleType="fitXY"
+=======
+        android:layout_height="109dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/micro"
+>>>>>>> 73c9a7788cb0f337159e99c790a5464c42963a70
+        android:onClick="butClick" />
+
+>>>>>>> 9ce83f40cd824e521188b6531d55d310f4b6e0b2
 
 </RelativeLayout>

@@ -6,9 +6,21 @@
     tools:context=".History">
 
     <ImageView
+<<<<<<< HEAD
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/history">
+=======
+<<<<<<< HEAD
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/history">
+=======
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cat3">
+>>>>>>> 73c9a7788cb0f337159e99c790a5464c42963a70
+>>>>>>> 9ce83f40cd824e521188b6531d55d310f4b6e0b2
 
     </ImageView>
 
@@ -21,6 +33,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+<<<<<<< HEAD
 
             <Button
                 android:id="@+id/btnPlay"
@@ -54,6 +67,48 @@
 
         </ListView>
 
+=======
+
+            <Button
+                android:id="@+id/btnPlay"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="btnPlay"
+                android:text="Play"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black"/>
+
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="btnDelete"
+                android:text="Delete"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+<TextView
+    android:id="@+id/myTextView"
+    android:layout_width="match_parent"
+    android:layout_height="0dp" />
+        <ListView
+            android:id="@+id/listView_history"
+            android:layout_width="match_parent"
+
+            android:layout_height="0dp"
+            android:layout_weight="1">
+<<<<<<< HEAD
+
+        </ListView>
+
+=======
+
+        </ListView>
+
+>>>>>>> 73c9a7788cb0f337159e99c790a5464c42963a70
+>>>>>>> 9ce83f40cd824e521188b6531d55d310f4b6e0b2
     </LinearLayout>
 
 

@@ -7,6 +7,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+import android.widget.Button;
+>>>>>>> 73c9a7788cb0f337159e99c790a5464c42963a70
+>>>>>>> 9ce83f40cd824e521188b6531d55d310f4b6e0b2
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -81,7 +88,15 @@ public class Style extends AppCompatActivity implements ViewPager.OnPageChangeLi
      */
     private void initData() {
         //初始化填充ViewPager的图片资源
+<<<<<<< HEAD
         imageResIds = new int[]{R.drawable.style,R.drawable.style1,R.drawable.style2,R.drawable.style3,R.drawable.style4};
+=======
+<<<<<<< HEAD
+        imageResIds = new int[]{R.drawable.style,R.drawable.style1,R.drawable.style2,R.drawable.style3,R.drawable.style4};
+=======
+        imageResIds = new int[]{R.drawable.cats,R.drawable.dog,R.drawable.bear,R.drawable.mouse,R.drawable.panda};
+>>>>>>> 73c9a7788cb0f337159e99c790a5464c42963a70
+>>>>>>> 9ce83f40cd824e521188b6531d55d310f4b6e0b2
         //图片的描述信息
         contentDescs = new String[]{
                 "第一张",

@@ -59,6 +59,11 @@ public class History extends AppCompatActivity {
             //Todo: The following is just for a demo purpose
 
             //Generate the dummy date to populate the listView
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 9ce83f40cd824e521188b6531d55d310f4b6e0b2
         /*
             Create a custom array adapter which  maps the strings to the views in the layout
             The default ArrayAdapter is too limited as we can only map a string to a view in the layout.
@@ -120,6 +125,7 @@ public class History extends AppCompatActivity {
                 // 当有单点击文件名时将删除按钮及播放按钮Enable
                 play.setEnabled(true);
                 delete.setEnabled(true);
+<<<<<<< HEAD
                 myPlayFile = new File(myRecAudioDir.getAbsolutePath() + File.separator + ((TextView) arg1).getText().toString());
                 DecimalFormat df = new DecimalFormat("#.000");
 
@@ -129,6 +135,24 @@ public class History extends AppCompatActivity {
             }
 
         });
+=======
+                myPlayFile = new File(myRecAudioDir.getAbsolutePath()
+                        + File.separator
+                        + ((TextView) arg1).getText().toString());
+
+                DecimalFormat df = new DecimalFormat("#.000");
+
+                myTextView.setText("你选的是"
+                        + ((TextView) arg1).getText().toString());
+                Toast.makeText(History.this,"你选的是" + (((TextView) arg1).getText()),
+                        Toast.LENGTH_LONG).show();
+
+            }
+
+        });
+
+
+>>>>>>> 9ce83f40cd824e521188b6531d55d310f4b6e0b2
     }
 
     private void openFile(File f) {

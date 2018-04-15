@@ -130,6 +130,7 @@ public class Asking extends AppCompatActivity {
         getRecordFiles();
         adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, recordFiles);
 
+
         //点击录音
         img_said.setOnClickListener(new Button.OnClickListener() {
             @Override
@@ -221,6 +222,7 @@ public class Asking extends AppCompatActivity {
             }
         });
 
+<<<<<<< HEAD
 img_share.setOnClickListener(new View.OnClickListener()
 {
     @Override
@@ -260,6 +262,31 @@ img_share.setOnClickListener(new View.OnClickListener()
                     length1 = df.format(myRecAudioFile.length() / 1024.0) + "K";
                 } else {
                     length1 = df.format(myRecAudioFile.length() / 1024.0 / 1024) + "M";
+=======
+
+        //暂停录音
+        img_stop_said.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                isPause = true;
+                //已经暂停过了，再次点击按钮 开始录音，录音状态在录音中
+                if (inThePause) {
+                    img_stop_said.setText("Stop");
+                    start();
+                    inThePause = false;
+                }
+                //正在录音，点击暂停,现在录音状态为暂停
+                else {
+                    //当前正在录音的文件名，全程
+                    list.add(myRecAudioFile.getPath());
+                    inThePause = true;
+                    recodeStop();
+                    //start();
+                    img_stop_said.setText("Continue");
+                    //计时停止
+                    timer.cancel();
+>>>>>>> 9ce83f40cd824e521188b6531d55d310f4b6e0b2
                 }
                 System.out.println(length1);
                 Time_text.setText("Recording 00:00");

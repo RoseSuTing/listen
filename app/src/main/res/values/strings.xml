@@ -18,6 +18,10 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 9ce83f40cd824e521188b6531d55d310f4b6e0b2
     <string name="username">username</string>
     <string name="password">Password</string>
     <string name="password_confirmation">Password confirmation</string>
@@ -30,4 +34,9 @@
     <string name="login">login</string>
     <string name="account_created">your account has been created.</string>
     <string name="enter_credentials">Enter your credentials.</string>
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 73c9a7788cb0f337159e99c790a5464c42963a70
+>>>>>>> 9ce83f40cd824e521188b6531d55d310f4b6e0b2
 </resources>

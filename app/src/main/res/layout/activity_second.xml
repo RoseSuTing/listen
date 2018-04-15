@@ -19,7 +19,15 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
+<<<<<<< HEAD
         android:background="@drawable/cat3"
+=======
+<<<<<<< HEAD
+        android:background="@drawable/cat3"
+=======
+        android:background="@drawable/cat1"
+>>>>>>> 73c9a7788cb0f337159e99c790a5464c42963a70
+>>>>>>> 9ce83f40cd824e521188b6531d55d310f4b6e0b2
         app:headerLayout="@layout/nav_header_second"
         app:menu="@menu/activity_second_drawer" />
 
